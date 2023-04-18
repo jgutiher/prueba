@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jaime Gutiérrez">
 
 <title>index</title>
 <style>
@@ -44,28 +43,7 @@ ul.task-list li input[type="checkbox"] {
 
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">index</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Jaime Gutiérrez </p>
-          </div>
-  </div>
-    
-  
-    
-  </div>
-  
-
-</header>
 
 <section id="ejercicio-matrículas-universitarias" class="level1">
 <h1>Ejercicio matrículas universitarias</h1>
@@ -74,12 +52,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="descarga-los-datos" class="level2">
 <h2 class="anchored" data-anchor-id="descarga-los-datos">1. Descarga los datos</h2>
 <p>Para realizar este ejercicio, necesitas descargar los datos en formato CSV y subirlos a un programa de hojas de cálculo como Excel o Google Sheets.</p>
-<p>Descarga los datos del siugiente enlace: <a href="bit.ly/matriculas-universitarias-2023">bit.ly/matriculas-universitarias-2023</a></p>
+<p><a href="https://raw.githubusercontent.com/jaimegutierrezh/formacion/main/2023_ejercicio_matriculas_universitarias/precios_publicos_grado_2023.csv">Descargar los datos</a></p>
 <p>Cuando hayas terminado, deberías tener una hoja parecida a esta:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/jaimegutierrezh/formacion/blob/main/2023_ejercicio_matriculas_universitarias/images/tabla_raw.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">tabla_raw</figcaption><p></p>
+<p><img src="images/tabla_raw.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </section>
@@ -88,23 +65,29 @@ ul.task-list li input[type="checkbox"] {
 <p>¿Qué hay que hacrle a los datos para poder trabajar con ellos?</p>
 <details>
 <summary>
-:mag_right: Pista
+🔎 Pista
 </summary>
 <ul>
-<li>Es mejor trabajar con los datos en vertical.<br>
-<ul>
+<li>Es mejor trabajar con los datos en vertical.</li>
 <li>Revisa que los datos tengan formato numérico.</li>
-</ul></li>
 </ul>
 </details>
 </section>
 <section id="analiza-los-datos-y-pinta-un-gráfico-de-rangos" class="level2">
 <h2 class="anchored" data-anchor-id="analiza-los-datos-y-pinta-un-gráfico-de-rangos">3. Analiza los datos y pinta un gráfico de rangos</h2>
-<p>Después de comprender los datos, ve a <a href="https://www.datawrapper.de/">Datawrapper</a> y pinta un gráfico de rangos en el que aparezca una línea por cada comunidad autónoma y otra para el total de España. Deben aparecer cuatro puntos en cada una, de forma que se visualice cómo incrementa el precio del crédito por primera, segunda, tercera y cuarta matrícula. <img src="https://github.com/jaimegutierrezh/formacion/blob/main/2023_ejercicio_matriculas_universitarias/images/grafico_rangos.png" class="img-fluid" alt="construye un gráfico de rangos con Datawrapper"> ## 4. ¿Cuáles son las comunidades autónomas más caras y baratas del curso 2022/2023? De nuevo en Datawrapper, utiliza los datos de primera matrícula para mostrar el precio medio por crédito. Luego, ajusta la leyenda del gráfico en las opciones de visualización para usar una escala divergente con la media de España como centro. ¿Cuáles están por encima y por debajo?</p>
+<p>Después de comprender los datos, ve a <a href="https://www.datawrapper.de/">Datawrapper</a> y pinta un gráfico de rangos en el que aparezca una línea por cada comunidad autónoma y otra para el total de España. Deben aparecer cuatro puntos en cada una, de forma que se visualice cómo incrementa el precio del crédito por primera, segunda, tercera y cuarta matrícula.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/jaimegutierrezh/formacion/blob/main/2023_ejercicio_matriculas_universitarias/images/mapa_creditos.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Mapa de precio de créditos universitarios</figcaption><p></p>
+<p><img src="images/grafico_rangos.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="cuáles-son-las-comunidades-autónomas-más-caras-y-baratas-del-curso-20222023" class="level2">
+<h2 class="anchored" data-anchor-id="cuáles-son-las-comunidades-autónomas-más-caras-y-baratas-del-curso-20222023">4. ¿Cuáles son las comunidades autónomas más caras y baratas del curso 2022/2023?</h2>
+<p>De nuevo en Datawrapper, utiliza los datos de primera matrícula para mostrar el precio medio por crédito. Luego, ajusta la leyenda del gráfico en las opciones de visualización para usar una escala divergente con la media de España como centro. ¿Cuáles están por encima y por debajo?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/mapa_creditos.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 <p><em>Ejercicio elaborado por Jaime Gutiérrez a partir del reportaje <a href="https://www.rtve.es/noticias/20230304/suspender-universidad-sale-caro/2429153.shtml">“Suspender asignaturas multiplica hasta seis veces el precio de estudiar”</a> de Lucía Montilla (DatosRTVE, 04.03.2023)</em></p>
